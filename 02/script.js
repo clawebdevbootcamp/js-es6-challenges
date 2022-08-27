@@ -4,3 +4,7 @@ exampleFunction() //Name - Age
 If 'myName' and 'myAge' are passed as arguments, this is the desired outcome: 
 exampleFunction({’myName’, ‘myAge’}) //myName - myAge
 */
+
+function myFunction({ myName = 'name', myAge = 'age' } = {}) {
+  console.log(`${myName} - ${myAge}`);
+}
