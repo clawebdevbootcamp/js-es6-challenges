@@ -4,3 +4,8 @@ exampleFunction() //Name - Age
 If 'myName' and 'myAge' are passed as arguments, this is the desired outcome: 
 exampleFunction({’myName’, ‘myAge’}) //myName - myAge
 */
+
+const details = ({a = "Name", b = "Age" } = {}) => {
+    console.log(a,b);
+}
+details({a:'myName', b:'myAge' }) //myName - myAge
