@@ -11,3 +11,6 @@ let age, name, country
 
 ProTip: the 3 variables can be defined in one line
 */
+
+const client2 = {...client, title: "Mr", position: "developer", sex: "male"}
+console.log(client2)
