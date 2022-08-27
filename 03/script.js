@@ -11,3 +11,5 @@ let age, name, country
 
 ProTip: the 3 variables can be defined in one line
 */
+
+let {age, name, country} = client

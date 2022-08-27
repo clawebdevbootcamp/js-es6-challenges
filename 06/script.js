@@ -10,3 +10,4 @@ Combine the properties of job (object) using the spread operator into jobInfo (o
 console.log(jobInfo) // {salary: 4000, title: "Developer", format: "Full-Time", experience: 4}
 
 */
+const jobinfo = {...job, ...details}
