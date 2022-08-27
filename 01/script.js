@@ -9,3 +9,7 @@ The same function can multiply the number by x times if you pass x as a second a
 exampleFunction(4, 3) //12
 
 */
+
+function multiply(a, b = 2) {
+    return a * b;
+}
